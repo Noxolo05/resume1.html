@@ -1,0 +1,36 @@
+#tar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro {
+    font-size: 30px;
+}
+#intro{
+    color: blueviolet;
+    background-color: black;
+}
+p {
+    background-size: contain;
+    background-color: blue;k
+    background-position: center;
+    background-size: contain;
+    border: 3px sienna;
+    border-radius: 10px;
+
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: left;
+}
+body {
+    color: darkorange;
+}
+#banner {
+    font-style: italic;
+    color: gold;
+}
+div {
+    background-color: rgb(107,107,148);
+    text-align: center;
+}
