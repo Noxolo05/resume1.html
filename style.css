@@ -3,19 +3,15 @@
 }
 .intro {
     font-size: 30px;
+    align-content: center;
+    background-position: center;
 }
-#intro{
-    color: blueviolet;
-    background-color: black;
-}
-p {
+
+.box3 {
     background-size: contain;
-    background-color: blue;k
+    background-color: blue;
     background-position: center;
     background-size: contain;
-    border: 3px sienna;
-    border-radius: 10px;
-
 }
 header {
     text-align: center;
@@ -30,7 +26,36 @@ body {
     font-style: italic;
     color: gold;
 }
-div {
-    background-color: rgb(107,107,148);
-    text-align: center;
+
+.box {background-color: brown;
+    background-size: contain;
+    height: fit-content;
+    width: fit-content;
+    box-sizing: border-box;
+    text-align: left;
+    border: 30px yellowgreen;
+
+
+}
+.box1 {
+    background-position: left;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    background-size: contain;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 100px solid white;
+}
+.image {
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    width: 100px;
+    border-radius: 40%;
+    border: 10px solid white;
+}
+.section {
+    padding: -30px;
+    margin: -2px;
 }
