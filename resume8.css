@@ -1,0 +1,44 @@
+/* code for devices smaller than 300px */
+.img {
+    background-image: url(face\ only.jpg);
+}
+@media (min-width: 300px)
+{
+body {
+    background-color: green;
+    padding: 30px;
+    margin: 10px;
+}
+}
+
+/* medium devices (landscape tablets, 950px and up) */
+.img {
+    background-image: url(shoulders\ and\ face.jpg);
+}
+@media (min-width: 950px)
+{
+.body {
+    background-color: blue;
+    padding: 30px;
+    margin: 10px;
+}
+}
+
+/* large devices (laptops/desktops, 1200pxpx and up) */
+.img {
+    background-image: url(croped.jpg);
+}
+@media (min-width: 1200px)
+{
+body {
+    background-color: blueviolet;
+    padding: 30px;
+    margin: 10px;
+}
+}
+#img {
+    border-image: round;
+    image-orientation: from-image;
+    size: 100px;
+
+}
